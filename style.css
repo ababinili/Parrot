@@ -1,0 +1,137 @@
+body{
+   
+    background-color: orange;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    /* box-shadow: 10px 10px 10px black; */
+    transition: 3000ms;
+}
+.BAR{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1528px;
+    height: 50px;
+    background-color: blueviolet;
+    /* box-shadow: 10px 10px 10px grey; */
+    transition: 300ms;
+}
+.div1{  width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-size: cover;
+    background-image: url(african-gray.webp);
+    transition: 300ms;
+    /* box-shadow: 10px 10px 10px blueviolet; */
+    transition: 300ms;
+    
+   
+}
+.div2{ 
+      width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    background-image: url(macaw.jpg);
+    background-size: cover;
+    /* box-shadow: 20px 20px 20px yellowgreen; */
+    transition: 300ms;
+    
+}
+.div3{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(Blue-fronted.webp);
+    background-size: cover;
+    /* box-shadow: 20px 20px 20px greenyellow; */
+    transition: 300ms;
+}
+H3{
+    position: relative;
+    top: 140PX;
+    color: red;
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+   top: 50px;
+   /* box-shadow: 20px 20px 20px black; */
+   transition: 3000ms;
+   
+}
+.div4{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(Ringneck.jpg);
+    background-size: cover;    
+    /* box-shadow: 20px 20px 20px yellow */
+    transition: 300ms;
+}
+.div5{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(molukan-kakadu.jpg);
+    background-size: cover;
+    /* box-shadow: 20px 20px 20px red; */
+    transition: 300ms;
+}
+.div6{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(kalita.jpg);
+    background-size: cover;
+    /* box-shadow: 20px 20px 20px blue; */
+    transition: 300ms;
+
+}
+.BAR:hover{
+    box-shadow: 20px 20px 20px grey ;
+}
+.div1:hover{
+    box-shadow: 20px 20px 20px red;   
+}
+.div2:hover{
+    box-shadow: 20px 20px 20px yellowgreen;
+}
+.div3:hover{
+    box-shadow: 20px 20px 20px greenyellow;
+}
+.div4:hover{
+    box-shadow: 20px 20px 20px yellow
+}
+.div5:hover{
+    box-shadow: 20px 20px 20px brown;
+}
+.div6:hover{
+    box-shadow: 20px 20px 20px blue;
+}
+
+a{text-decoration: none;}
+.main:hover{
+    box-shadow: 20px 20px 20px black;
+}
+.main2:hover{ 
+    box-shadow: 20px 20px 20px black;}
